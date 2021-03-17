@@ -4,5 +4,4 @@
 
 data/
 
-tr1.npy
-te1.npy
+*.npy
