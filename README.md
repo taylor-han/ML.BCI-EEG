@@ -1,5 +1,7 @@
-# BCI
+# Machine Learning Algorithms on P300&EEG Data
 
-#### Taylor Han
-#### Ahmad Sadeed
-#### Tae Kwang (Jason) Chung
+BCI is the process of transforming brain activity into transcribable signal data that can be manipulated and find trends. BCI is currently being used in multiple aspects in the field, not limited to medical research to help those who may have lost their motor ability. Thus, through the use of supervised machine learning, models can be trained so that it is able to detect and classify signals accordingly (in this case, good or bad feedback).
+
+For our project, we were interested in solving the Kaggle BCI Challenge @ NER 2015. This Jupyter Notebook file showcases our efforts in cleaning the noisy data and training multiple models that classify whether a feedback was good or bad. The data consists of 56 P300 electrode signals across the brain, EEG evoked responses recorded every 5 milliseconds. The brain wave data consists of test subjects with the goal of spelling a word by only paying attention to visual stimuli. The goal of the competition is to detect errors during the spelling task, given the subject’s brain waves.
+
+The “P300-Speller” is a well-known brain-computer interface (BCI) paradigm which uses Electroencephalography (EEG) and the so-called P300 response evoked by rare and attended stimuli in order to select items displayed on a computer screen. In the experiment, each subject was presented with letters and numbers (36 possible items displayed on a matrix) to spell words. Each item of a word is selected one at a time, by flashing screen items in groups and in random order.
